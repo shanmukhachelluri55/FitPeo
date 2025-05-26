@@ -52,7 +52,7 @@ const AnatomySection = () => {
                             <Suspense fallback={null}>
                                 <HumanBodyModel
                                     objPath="/models/human_body.obj"
-                                    mtlPath="/models/human_body.mtl"
+                                    // mtlPath="/models/human_body.mtl"
                                 />
                             </Suspense>
                             <OrbitControls enableZoom enablePan />
